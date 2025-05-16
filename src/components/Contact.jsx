@@ -6,7 +6,9 @@ import { FaYoutube } from "react-icons/fa";
 const ContactPage = () => {
 
   return (
-    <section className="contact">
+
+    <section id="contact" className="contact">
+  
       <div className="contact-content">
         <h2 className="contact-title">Hit Me Up</h2>
         <p className="contact-description">
@@ -20,7 +22,8 @@ const ContactPage = () => {
         </div>
 
       </div>
-    </section>
+</section>
+
   );
 };
 

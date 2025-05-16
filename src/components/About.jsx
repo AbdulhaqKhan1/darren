@@ -3,7 +3,8 @@ import profileImage from '../assets/IMG_843.png';
 
 const AboutPage = () => {
   return (
-    <section className="about">
+    <section id="about" className="about">
+  
       <div className="about-content">
         <h2 className="about-title">About Me</h2>
         <p className="about-description">
@@ -13,7 +14,8 @@ const AboutPage = () => {
           <img src={profileImage} alt="Profile" className="about-image" />
         </div>
       </div>
-    </section>
+</section>
+
   );
 };
 

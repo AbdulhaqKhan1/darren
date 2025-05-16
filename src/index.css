@@ -200,6 +200,11 @@ body{
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* About Page Styles */
 .about {
   display: flex;

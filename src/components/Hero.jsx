@@ -2,7 +2,8 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
+  
       <div className="hero-overlay">
         <div className="hero-content">
           <h1 className="hero-title">Welcome to My World</h1>
@@ -14,7 +15,8 @@ const HeroSection = () => {
 
         </div>
       </div>
-    </section>
+</section>
+
   );
 };
 
