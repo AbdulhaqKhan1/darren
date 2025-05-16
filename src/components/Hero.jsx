@@ -6,7 +6,7 @@ const HeroSection = () => {
   
       <div className="hero-overlay">
         <div className="hero-content">
-          <h1 className="hero-title">Welcome to My World</h1>
+          <h1 className="hero-title">Welcome to My World ooo</h1>
           <p className="hero-description">This is where passion meets purpose. I’ve come a long way, turning my energy and love for entertaining into something real. Thanks for being here — let’s grow, have fun, and keep chasing greatness together</p>
 
     <h2 className="young">I Show Speed</h2>
