@@ -4,20 +4,10 @@
   font-style: normal;
 }
 
-@media (max-width: 769px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-    .hero{
-        background-image: url("../src/assets/IMG_746.jpeg");
-        background: none;
-        background-size: cover;
-        max-height: 300px;
-    }
+    @media (max-width: 769px) {
+  .nav-bar {
+    background: black !important;
+  }
 }
 
 body{
