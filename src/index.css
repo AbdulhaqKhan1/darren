@@ -1,9 +1,23 @@
-@import "tailwindcss";
-
 @font-face {
   font-family: "Sora";
   src: url('../fonts/Diavlo_LIGHT_II.otf') format("truetype");
   font-style: normal;
+}
+
+@media (max-width: 769px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+    .hero{
+        /* background-image: url("src/assets/HERO_783.png"); */
+        background: none;
+        background-size: cover;
+        max-height: 300px;
+    }
 }
 
 body{
@@ -12,7 +26,7 @@ body{
 }
 
 .nav-bar{
-  background: #ddddfa;
+  background: #b3b3f8;
   backdrop-filter: blur(8px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   margin-top: -1.3em;
