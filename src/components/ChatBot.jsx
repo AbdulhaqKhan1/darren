@@ -22,7 +22,6 @@ const ChatBot = () => {
   if (lower.includes('how are you')) return 'I’m hype as always bro, LET’S GOOOO! 🗣🔥';
   if (lower.includes('how old are you')) return 'I’m 20 years old — born in January 2005!';
   if (lower.includes('where are you from')) return 'I’m from Cincinnati, Ohio!';
-  if (lower.includes('where do you live')) return 'I’m based in the U.S., movin’ smart!';
   if (lower.includes('best color') || lower.includes('favourite color')) return 'Red or black — full Ronaldo vibes ⚽🔥';
   if (lower.includes('favourite footballer')) return 'CRISTIANO RONALDO SIIIIUUUUUUUU!!! 🐐';
   if (lower.includes('best food') || lower.includes('favourite food')) return 'Hot wings and pizza, you feel me? 🍗🍕';
